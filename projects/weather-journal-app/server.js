@@ -22,4 +22,5 @@ app.use(express.static('website'));
 // Setup Server
 app.listen(3000, ()=> {
     console.log('Your server start on port 3000');
-})
+});
+
