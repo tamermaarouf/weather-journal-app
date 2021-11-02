@@ -13,6 +13,7 @@ generateBtn.addEventListener('click', async () => {
     try {
         const resData = await res.json();
         const temp = resData.main.temp;
+        console.log(temp);
     } catch (error) {
         console.log('error', error);
     }
